@@ -5,7 +5,6 @@ from dataclasses import dataclass
 @dataclass
 class Bot:
     TOKEN: str
-    admin_id: int
     way: str
 
 
@@ -23,7 +22,6 @@ def load_config(path: str):
     return Config(
         bot=Bot(
             TOKEN=bot["TOKEN"],
-            admin_id=int(bot["admin_id"]),
             way=bot['way']
         )
     )
