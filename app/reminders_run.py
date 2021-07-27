@@ -37,7 +37,7 @@ async def check():
 async def start():
     current_sec = int(datetime.now().strftime("%S"))
     delay = 60 - current_sec
-    if delay == 0:
+    if delay == 60:
         delay = 0
     #
     await asyncio.sleep(delay)
