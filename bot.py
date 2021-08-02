@@ -37,6 +37,7 @@ async def main(loop):
     "utc_code"	REAL,
     "new_reminder"	INTEGER,
     "reminder_id"	INTEGER,
+    "message_id"    INTEGER,
     PRIMARY KEY("user_chat_id")
     )''')
     cur.execute('''CREATE TABLE IF NOT EXISTS "reminders" (
