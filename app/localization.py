@@ -1,7 +1,7 @@
 from os import listdir
 from os.path import isfile, join
 
-files = [f for f in listdir('localization') if isfile(join('localization', f))]
+files = next(walk('localization'), (None, None, []))[2]
 lang = {}
 
 for w in range(0, len(files)):
