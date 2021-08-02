@@ -7,7 +7,13 @@ https://t.me/Alarm_Notification_Reminder_Bot
 
 ## Commands
 - [/set_reminder](https://github.com/coder8jedi/ReminderBot#set-reminder) - create new reminder
-- [/my_reminders](https://github.com/coder8jedi/ReminderBot#my-reminder) - print your reminders
+- [/my_reminders](https://github.com/coder8jedi/ReminderBot#my-reminders) - print your reminders
+- [/del_reminder](https://github.com/coder8jedi/ReminderBot#del-reminder) - delete reminder
+- [/edit_reminder](https://github.com/coder8jedi/ReminderBot#edit-reminder) - edit reminder
+- [/cancel](https://github.com/coder8jedi/ReminderBot#cancel) - cancel
+- [/utc](https://github.com/coder8jedi/ReminderBot#utc) - change time zone
+- [/lang](https://github.com/coder8jedi/ReminderBot#lang) - change interface language
+- [/help](https://github.com/coder8jedi/ReminderBot#start--help) - print a list of commands
 
 ### Start & Help
 ```/help``` - print a list of commands
@@ -19,7 +25,32 @@ https://t.me/Alarm_Notification_Reminder_Bot
 
 ![alt text](https://i.imgur.com/aEQz8Bo.gif)
 
-### My reminders
+### My Reminders
 ```/my_reminders``` - print your reminders
 
 ![alt text](https://i.imgur.com/cfiUfYH.gif)
+
+### Del Reminder
+```/del_reminder``` - delete reminder
+
+![alt text](https://i.imgur.com/t9HFkdK.gif)
+
+### Edit Reminder
+```/edit_reminder``` - edit reminder
+
+![edit_reminder](https://i.imgur.com/rlpcEiu.gif)
+
+### Cancel
+```/cancel``` - cancel command where there is not cancel button
+
+![alt text](https://i.imgur.com/yZcm9JC.gif)
+
+### UTC
+```/utc``` - change time zone
+
+![alt text](https://i.imgur.com/gPGvsKA.gif)
+
+### Lang
+```/lang``` - change inteface language
+
+![alt text](https://i.imgur.com/5irLaIq.gif)
