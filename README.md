@@ -15,6 +15,33 @@ https://t.me/Alarm_Notification_Reminder_Bot
 - [/lang](https://github.com/coder8jedi/ReminderBot#lang) - change interface language
 - [/help](https://github.com/coder8jedi/ReminderBot#start--help) - print a list of commands
 
+## File Tree
+```
+├── app/
+│ ├── handlers/
+│ │ ├── __init__.py
+│ │ ├── common.py
+│ │ ├── del_reminder.py
+│ │ ├── edit_reminder.py
+│ │ ├── lang.py
+│ │ ├── my_reminder.py
+│ │ ├── set_reminder.py
+│ │ └── utc.py
+│ ├── __init__.py
+│ ├── config_reader.py
+│ ├── keyboards.py
+│ ├── localization.py
+│ ├── remiders_run.py
+│ └── utc_time.py
+├── config/
+│ └── bot.ini
+├── localization/
+│ ├── en.txt
+│ └── uk.txt
+├── bot.py
+└── data.db
+```
+
 ### Start & Help
 ```/help``` - print a list of commands
 
