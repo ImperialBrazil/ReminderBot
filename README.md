@@ -16,6 +16,9 @@ https://t.me/Alarm_Notification_Reminder_Bot
 - [/help](https://github.com/coder8jedi/ReminderBot#start--help) - print a list of commands
 
 ## File Tree
+<details>
+<summary>OPEN</summary>
+
 ```
 ├── app/
 │ ├── handlers/
@@ -41,6 +44,9 @@ https://t.me/Alarm_Notification_Reminder_Bot
 ├── bot.py
 └── data.db
 ```
+ 
+</details>
+
 
 ### Start & Help
 ```/help``` - print a list of commands
